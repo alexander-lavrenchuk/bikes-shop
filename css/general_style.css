@@ -1,0 +1,25 @@
+body {
+	background: #f8f8f8;
+}
+.menu {
+	list-style-type: none;
+	font-size: 12px;
+	font-family: monospace;
+	margin: 0;
+	padding-left: 0;
+}
+.menu li {
+	display: inline;
+	text-align: left;
+}
+.menu li a {
+	color: #0b3904;
+}
+.material_source {
+	font-size: 10px;
+}
+.footer {
+	font-size: 12px;
+	background-color: #858585;
+	font-weight: bold;
+}
