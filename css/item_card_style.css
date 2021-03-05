@@ -1,0 +1,37 @@
+h3 {
+	color: #000;
+	font-size: 18px;
+	font-weight: 400.;
+	background-color: #eaeaea;
+}
+.short_description {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+.full_description {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400.;
+	line-height: 24px;
+	text-align: left;
+}
+.characteristics_list li {
+	list-style-type: none;
+/*	list-style-image: url(../img/wheel_icon.png);*/
+	background-image: url(../img/wheel_icon.png);
+	background-repeat: no-repeat;
+	background-size: 1.2%;
+	color: #161b52;
+	font-size: 14px;
+	font-weight: 400.;
+	line-height: 16px;
+	text-align: left;
+	padding-left: 22px;
+}
+img {
+	border: 2px;
+	border: solid;
+	border-color: #5f3f3f;
+}

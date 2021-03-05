@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/general_style.css">
+	<link rel="stylesheet" type="text/css" href="../css/contact_style.css">
 	<title>Контакты</title>
 </head>
 <body>
@@ -15,15 +17,42 @@
 	<hr>
 	<h1>Напишите нам</h1>
 	<form>
-		Ваше имя: <input type="text" size="40" placeholder="Введите Ваше Имя"><br>
-		E-mail: <input type="email" size="40" placeholder="Введите Ваш e-mail"><br>
-		Телефон: <input type="tel" size="12" placeholder="Ваш номер телефона"><br>
-		Тема: <input type="text" size="40" placeholder="Тема обращения"><br>
-		Обращение: <textarea rows="7" cols="45" name="text" placeholder="Текст обращения"></textarea><br>
+		<table>
+			<tr>
+				<td>Ваше имя: </td>
+				<td><input type="text" size="40" placeholder="Введите Ваше Имя"></td>
+			</tr>
+			<tr>
+				<td>E-mail: </td>
+				<td><input type="email" size="40" placeholder="Введите Ваш e-mail"></td>
+			</tr>
+			<tr>
+				<td>Телефон: </td>
+				<td><input type="tel" size="12" placeholder="Ваш номер телефона"></td>
+			</tr>
+			<tr>
+				<td>Тема: </td>
+				<td><input type="text" size="40" placeholder="Тема обращения"></td>
+			</tr>
+			<tr class="textarea_style">
+				<td>Обращение: </td>
+				<td><textarea rows="7" cols="43" name="text" placeholder="Текст обращения"></textarea></td>
+			</tr>
+		</table>
+		<br>
 		<p>Как Вы узнали о нашем сайте?</p>
-		<p><input name="adv_channel" type="radio" value="internet" checked> Реклама в Интернете<br>
-		<input name="adv_channel" type="radio" value="friends"> Друзья рекомендовали<br>
-		<input name="adv_channel" type="radio" value="magazines"> Реклама в журналах</p>
+		<div class="control_row">
+			<div class="control_block"><input name="adv_channel" type="radio" value="internet" checked></div>
+			<div class="label_block"> Реклама в Интернете</div>
+		</div>
+		<div class="control_row">
+			<div class="control_block"><input name="adv_channel" type="radio" value="friends" checked></div>
+			<div class="label_block"> Друзья рекомендовали</div>
+		</div>
+		<div class="control_row">
+			<div class="control_block"><input name="adv_channel" type="radio" value="magazines" checked></div>
+			<div class="label_block"> Реклама в журналах</div>
+		</div>
 		<br>
 		<input type="reset" value="Очистить">    <input type="submit" value="Отправить">
 	</form>
@@ -34,7 +63,7 @@
 		<input type="checkbox">Получать информацию об акциях<br>
 	</p>
 	<h3>Контактная инфорамация</h3>
-	<ul>
+	<ul class="shop_contacts">
 		<li>г. Москва, Сколково</li>
 		<li>Телефон: <a href="tel:+79057585775">+7(905)758-5775</a></li>
 		<li>e-mail: <a href="mailto:lavrenchuk@yandex.ru">lavrenchuk@yandex.ru</a></li>

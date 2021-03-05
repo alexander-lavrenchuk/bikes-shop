@@ -1,0 +1,35 @@
+.control_row div {
+	display: inline;
+	vertical-align: top;
+}
+.label_block {
+	position: relative;
+	font-size: 14px;
+	top: 4px;
+}
+input[type="text"], input[type="tel"], input[type="email"], textarea {
+	color: #322292;
+	font-size: 14px;
+}
+textarea {
+	padding-left: 8px;
+	padding-top: 8px;
+}
+td {
+	font-size: 14px;
+}
+.textarea_style {
+	vertical-align: top;
+}
+p {
+	font-size: 14px;
+	line-height: 14px;
+	vertical-align: top;
+}
+.shop_contacts {
+	list-style-type: none;
+	padding-left: 10px;
+}
+.shop_contacts li {
+	font-size: 14px;
+}
