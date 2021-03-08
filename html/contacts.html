@@ -8,12 +8,17 @@
 	<title>Контакты</title>
 </head>
 <body>
-	<!-- Меню -->
-	<ul class="menu">
-		<li><a href="../index.html">Главная</a></li>
-		<li><a href="../catalogue/_catalogue.html">Каталог</a></li>
-		<li><a href="contacts.html">Котакты</a></li>
-	</ul>
+	<!-- Menu -->
+	<div class="header">
+		<div class="logo_navi">
+			<img class="logo" src="../img/logo.png" alt="BiSh">
+			<nav class="navi">
+				<a href="../index.html">Главная</a>
+				<a href="../catalogue/_catalogue.html">Каталог</a>
+				<a href="../html/contacts.html">Котакты</a>
+			</nav>
+		</div>
+	</div>
 	<hr>
 	<h1>Напишите нам</h1>
 	<form>
@@ -40,29 +45,42 @@
 			</tr>
 		</table>
 		<br>
-		<p>Как Вы узнали о нашем сайте?</p>
+		<h4>Как Вы узнали о нашем сайте?</h4>
 		<div class="control_row">
-			<div class="control_block"><input name="adv_channel" type="radio" value="internet" checked></div>
-			<div class="label_block"> Реклама в Интернете</div>
+			<div><input id="internet_id" name="adv_channel" type="radio" value="internet" checked=""></div>
+			<div><label for="internet_id"> Реклама в Интернете</label></div>
 		</div>
+		
 		<div class="control_row">
-			<div class="control_block"><input name="adv_channel" type="radio" value="friends" checked></div>
-			<div class="label_block"> Друзья рекомендовали</div>
+			<div><input id="friends_id" name="adv_channel" type="radio" value="friends"></div>
+			<div><label for="friends_id"> Друзья рекомендовали</label></div>
 		</div>
+
 		<div class="control_row">
-			<div class="control_block"><input name="adv_channel" type="radio" value="magazines" checked></div>
-			<div class="label_block"> Реклама в журналах</div>
+			<div><input id="magazines_id" name="adv_channel" type="radio" value="magazines"></div>
+			<div><label for="magazines_id"> Реклама в журналах</label></div>
 		</div>
 		<br>
 		<input type="reset" value="Очистить">    <input type="submit" value="Отправить">
 	</form>
-	<h3>Подписка</h3>
-	<p>
-		<input type="checkbox" name="" id="">Получать новости</br>
-		<input type="checkbox">Получать рассылку о новых предложениях</br>
-		<input type="checkbox">Получать информацию об акциях<br>
-	</p>
-	<h3>Контактная инфорамация</h3>
+	<br>
+	<h4>Подписка</h4>
+	<div class="control_row">
+		<div><input type="checkbox" name="" id="get_news_id"></div>
+		<div><label for="get_news_id">Получать новости</label></div>
+	</div>
+
+	<div class="control_row">
+		<div><input type="checkbox" name="" id="get_new_offers_id"></div>
+		<div><label for="get_new_offers_id">Получать рассылку о новых предложениях</label></div>
+	</div>
+
+	<div class="control_row">
+		<div><input type="checkbox" name="" id="get_promo_id"></div>
+		<div><label for="get_promo_id">Получать информацию об акциях</label></div>
+	</div>
+	<br>
+	<h4>Контактная инфорамация</h4>
 	<ul class="shop_contacts">
 		<li>г. Москва, Сколково</li>
 		<li>Телефон: <a href="tel:+79057585775">+7(905)758-5775</a></li>
@@ -73,6 +91,6 @@
 	</ul>
 	<!-- Footer -->
 	<hr>
-	<p class="footer">Все права защищены &copy; 2021</p>
+	<div class="footer">Все права защищены &copy; 2021</div>
 </body>
 </html>
