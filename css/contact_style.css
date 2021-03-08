@@ -1,0 +1,49 @@
+.control_row div {
+	display: inline;
+	vertical-align: top;
+}
+label {
+	/*position: relative;*/
+	font-size: 14px;
+	top: 5px;
+}
+input[type="text"], input[type="tel"], input[type="email"], textarea {
+	color: #097806;
+	font-size: 14px;
+}
+/* This code doesn't work
+input[type="text"]:first-letter {
+	text-transform: capitalize;
+	color: red;
+}*/
+.how_did_you_hear_about {
+	margin-bottom: 2px;
+}
+input[type="text"] {
+	text-transform: capitalize;
+}
+textarea {
+	padding-left: 8px;
+	padding-top: 8px;
+}
+textarea:focus {
+	background-color: #e9e9e9;
+	color: #080BFF;
+}
+td {
+	font-size: 14px;
+}
+.textarea_style {
+	vertical-align: top;
+}
+.shop_contacts {
+	list-style-type: none;
+	padding-left: 10px;
+	margin-top: 0;
+}
+.shop_contacts li {
+	font-size: 14px;
+}
+h4 {
+	margin-bottom: 5px;
+}
