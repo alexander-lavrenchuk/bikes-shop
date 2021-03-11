@@ -1,6 +1,35 @@
-.catalogue_links {
+/*.catalogue_links {
 	font-size: 14px;
-}
-td {
+}*/
+/*td {
 	vertical-align: top;
+}*/
+.catalogue-row {
+	margin-bottom: 15px;
+	/*position: relative;
+	top: 0;
+	left: 0;*/
+	/*vertical-align: top;
+	height: 148px;*/
+}
+.item-img {
+	display: inline-block;
+}
+.item-img img {
+	height: 148px;
+}
+.item-link {
+	/*position: absolute;
+	top: 0;
+	left: 0;*/
+	display: inline-block;
+	/*margin-bottom: 148px;*/
+	/*height: 100%;*/
+	vertical-align: top;
+}
+.item-link a {
+	display: block;
+	/*line-height: 148px;*/
+	/*vertical-align: top;*/
+	font-size: 14px;
 }

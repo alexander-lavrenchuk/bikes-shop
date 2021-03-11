@@ -1,3 +1,7 @@
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
 .comparison_table {
 	border-collapse: collapse;
 }
@@ -17,6 +21,7 @@
 .comparison_table tr:first-child {
 	background-color: #A3CCB6
 }
-img {
-	height: 300px;
+.intro-pic {
+	display: block;
+	width: 500px;
 }
