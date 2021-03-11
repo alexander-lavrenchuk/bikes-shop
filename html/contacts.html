@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/general_style.css">
+	<link rel="stylesheet" type="text/css" href="../css/contact_style.css">
+	<!-- <script type="text/javascript" src="../js/map.js"></script> -->
+	<title>Контакты</title>
+</head>
+<body>
+	<!-- Menu -->
+	<div class="header">
+		<img class="logo" src="../img/cb-logo.png" alt="CarboRama">
+		<nav class="navi">
+			<a href="../index.html">Главная</a>
+			<a href="../catalogue/_catalogue.html">Каталог</a>
+			<a href="../html/contacts.html">Котакты</a>
+		</nav>
+	</div>
+	<hr>
+	<!-- Content -->
+	<h1>Напишите нам</h1>
+	<form>
+		<table>
+			<tr>
+				<td>Ваше имя: </td>
+				<td><input type="text" size="40" placeholder="Введите Ваше Имя"></td>
+			</tr>
+			<tr>
+				<td>E-mail: </td>
+				<td><input type="email" size="40" placeholder="Введите Ваш e-mail"></td>
+			</tr>
+			<tr>
+				<td>Телефон: </td>
+				<td><input type="tel" size="12" placeholder="Ваш номер телефона"></td>
+			</tr>
+			<tr>
+				<td>Тема: </td>
+				<td><input type="text" size="40" placeholder="Тема обращения"></td>
+			</tr>
+			<tr class="textarea_style">
+				<td>Обращение: </td>
+				<td><textarea rows="7" cols="43" name="text" placeholder="Текст обращения"></textarea></td>
+			</tr>
+		</table>
+		<br>
+		<h4>Как Вы узнали о нашем сайте?</h4>
+		<div class="control_row">
+			<div><input id="internet_id" name="adv_channel" type="radio" value="internet" checked=""></div>
+			<div><label for="internet_id"> Реклама в Интернете</label></div>
+		</div>
+		
+		<div class="control_row">
+			<div><input id="friends_id" name="adv_channel" type="radio" value="friends"></div>
+			<div><label for="friends_id"> Друзья рекомендовали</label></div>
+		</div>
+
+		<div class="control_row">
+			<div><input id="magazines_id" name="adv_channel" type="radio" value="magazines"></div>
+			<div><label for="magazines_id"> Реклама в журналах</label></div>
+		</div>
+		<br>
+		<input type="reset" value="Очистить">    <input type="submit" value="Отправить">
+	</form>
+	<br>
+	<h4>Подписка</h4>
+	<div class="control_row">
+		<div><input type="checkbox" name="" id="get_news_id"></div>
+		<div><label for="get_news_id">Получать новости</label></div>
+	</div>
+
+	<div class="control_row">
+		<div><input type="checkbox" name="" id="get_new_offers_id"></div>
+		<div><label for="get_new_offers_id">Получать рассылку о новых предложениях</label></div>
+	</div>
+
+	<div class="control_row">
+		<div><input type="checkbox" name="" id="get_promo_id"></div>
+		<div><label for="get_promo_id">Получать информацию об акциях</label></div>
+	</div>
+	<br>
+	<h4>Контактная инфорамация</h4>
+	<ul class="shop_contacts">
+		<li>г. Москва, Сколково</li>
+		<li>Телефон: <a href="tel:+79057585775">+7(905)758-5775</a></li>
+		<li>e-mail: <a href="mailto:lavrenchuk@yandex.ru">lavrenchuk@yandex.ru</a></li>
+		<li>Карта</li>
+	</ul>
+	<div id="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7564.570048176434!2d37.33967998041214!3d55.68968091093939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b551e3dd91e44f%3A0xc4cf8998b901d901!2z0JjQvdC90L7QstCw0YbQuNC-0L3QvdGL0Lkg0YbQtdC90YLRgCDQodC60L7Qu9C60L7QstC-!5e0!3m2!1sru!2sru!4v1615421524500!5m2!1sru!2sru" height="100%" width="100%" allowfullscreen="" loading="lazy"></iframe>
+	</div>
+	<!-- Footer -->
+	<hr>
+	<div class="footer">Все права защищены &copy; 2021</div>
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR8P72HMX3zllKeeZt8X89dJWMEu0LSX8&callback=myMap" async defer></script> -->
+</body>
+</html>

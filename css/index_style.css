@@ -1,0 +1,27 @@
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+.comparison_table {
+	border-collapse: collapse;
+}
+.comparison_table th, .comparison_table td {
+	border: 1px solid #282923;
+}
+.comparison_table th {
+	height: 50px;
+	vertical-align: middle;
+}
+.comparison_table th:nth-child(3) {
+	width: 100px;
+}
+.comparison_table tr:nth-child(2n+2) {
+	background-color: #C3F9EC
+}
+.comparison_table tr:first-child {
+	background-color: #A3CCB6
+}
+.intro-pic {
+	display: block;
+	width: 500px;
+}
